@@ -42,7 +42,7 @@ export class GifsService {
 
       // console.log(resp.data);
       this.gifsList = resp.data;
-      console.log({gifs: this.gifsList});
+      // console.log({gifs: this.gifsList});
     })
     // fetch('https://api.giphy.com/v1/gifs/search?api_key=ZuzUtYQEkG3iCZDKCoMe227AhwB3NXh3&q=valorant&limit=10')
     // .then( resp => resp.json())
